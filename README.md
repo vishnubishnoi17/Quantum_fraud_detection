@@ -5,11 +5,11 @@
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Qiskit](https://img.shields.io/badge/Qiskit-1.0.0-purple.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Active-success. svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
 
 **Benchmarking Variational Quantum Classifiers against Classical ML for Fraud Detection**
 
-[🚀 Quick Start](#-quick-start) • [📊 Results](#-results) • [📚 Notebooks](#-notebooks) • [🤝 Contributing](#-contributing)
+[🚀 Quick Start](#-quick-start) • [📊 Results](#-results) • [📚 Notebooks](#-notebooks) 
 
 </div>
 
@@ -101,7 +101,7 @@ docker run -p 8888:8888 -v $(pwd):/workspace qml-fraud
 
 ```bash
 # Create virtual environment
-python3. 9 -m venv qml_env
+python3.9 -m venv qml_env
 source qml_env/bin/activate  # On Windows: qml_env\Scripts\activate
 
 # Install dependencies
@@ -113,12 +113,6 @@ mkdir -p data/processed results figures models
 # Start Jupyter
 jupyter lab
 ```
-
-### **Option 3: Google Colab**
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vishnubishnoi17/Quantum_fraud_detection/blob/main/notebooks/00_colab_setup.ipynb)
-
----
 
 ## 📚 **Notebooks**
 
@@ -421,66 +415,14 @@ pip install --force-reinstall -r requirements.txt
 
 ---
 
-## 🤝 **Contributing**
-
-Contributions welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-### **Areas for Improvement**
-1. ✅ Implement cross-validation for VQC
-2. ✅ Add error mitigation techniques
-3. ✅ Test on real quantum hardware
-4. ✅ Explore quantum neural networks (QNN)
-5. ✅ Add unit tests and CI/CD
-
----
-
-## 📚 **Citations**
-
-If you use this code in your research, please cite:
-
-```bibtex
-@software{bishnoi2024quantum_fraud,
-  author = {Bishnoi, Vishnu},
-  title = {Quantum Machine Learning for Credit Card Fraud Detection},
-  year = {2024},
-  publisher = {GitHub},
-  url = {https://github.com/vishnubishnoi17/Quantum_fraud_detection}
-}
-```
-
-### **Key References**
-1. Havlíček, V., et al. (2019). "Supervised learning with quantum-enhanced feature spaces." *Nature*, 567(7747), 209-212.
-2. Cerezo, M., et al. (2021). "Variational quantum algorithms." *Nature Reviews Physics*, 3(9), 625-644.
-3. Schuld, M., & Petruccione, F. (2018). *Supervised Learning with Quantum Computers*.  Springer. 
-
----
-
-## 📄 **License**
-
-This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
-
----
-
 ## 👤 **Author**
 
 **Vishnu Bishnoi**
 - GitHub: [@vishnubishnoi17](https://github.com/vishnubishnoi17)
-- LinkedIn: [Your LinkedIn](#)
-- Email: your.email@example.com
 
----
 
-## 🙏 **Acknowledgments**
-
-- IBM Quantum for Qiskit framework
-- UCI Machine Learning Repository for datasets
-- Quantum Computing Stack Exchange community
-
----
 
 <div align="center">
-
-**⭐ Star this repo if you find it useful! ⭐**
 
 [🔝 Back to Top](#-quantum-machine-learning-for-credit-card-fraud-detection)
 
