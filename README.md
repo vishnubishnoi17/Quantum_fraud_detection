@@ -101,7 +101,7 @@ docker run -p 8888:8888 -v $(pwd):/workspace qml-fraud
 
 ```bash
 # Create virtual environment
-python3. 9 -m venv qml_env
+python3.9 -m venv qml_env
 source qml_env/bin/activate  # On Windows: qml_env\Scripts\activate
 
 # Install dependencies
@@ -412,41 +412,6 @@ export QISKIT_IN_PARALLEL=FALSE  # Disable parallelization
 # Solution:  Reinstall with exact versions
 pip install --force-reinstall -r requirements.txt
 ```
-
----
-
-## 🤝 **Contributing**
-
-Contributions welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-### **Areas for Improvement**
-1. ✅ Implement cross-validation for VQC
-2. ✅ Add error mitigation techniques
-3. ✅ Test on real quantum hardware
-4. ✅ Explore quantum neural networks (QNN)
-5. ✅ Add unit tests and CI/CD
-
----
-
-## 📚 **Citations**
-
-If you use this code in your research, please cite:
-
-```bibtex
-@software{bishnoi2024quantum_fraud,
-  author = {Bishnoi, Vishnu},
-  title = {Quantum Machine Learning for Credit Card Fraud Detection},
-  year = {2024},
-  publisher = {GitHub},
-  url = {https://github.com/vishnubishnoi17/Quantum_fraud_detection}
-}
-```
-
-### **Key References**
-1. Havlíček, V., et al. (2019). "Supervised learning with quantum-enhanced feature spaces." *Nature*, 567(7747), 209-212.
-2. Cerezo, M., et al. (2021). "Variational quantum algorithms." *Nature Reviews Physics*, 3(9), 625-644.
-3. Schuld, M., & Petruccione, F. (2018). *Supervised Learning with Quantum Computers*.  Springer. 
-
 
 ---
 
